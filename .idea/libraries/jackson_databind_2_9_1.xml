@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jackson-databind-2.9.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/day49/web/WEB-INF/lib/jackson-databind-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day49/web/WEB-INF/lib/jackson-annotations-2.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day49/web/WEB-INF/lib/jackson-core-2.9.1.jar!/" />
+      <root url="file://$PROJECT_DIR$/day49/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/day49/web/WEB-INF/lib" recursive="false" />
+  </library>
+</component>

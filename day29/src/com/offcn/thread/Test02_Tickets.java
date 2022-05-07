@@ -1,0 +1,16 @@
+package com.offcn.thread;
+
+public class Test02_Tickets {
+    public static void main(String[] args) {
+        //SaleTickets 是runnable一个实现类
+        SaleTickets st=new SaleTickets();
+        Thread t1=new Thread(st,"美团");
+        Thread t2=new Thread(st,"猫眼");
+        Thread t3=new Thread(st,"影院");
+
+        //开启线程
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
