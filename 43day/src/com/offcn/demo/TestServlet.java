@@ -17,5 +17,6 @@ public class TestServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter writer = response.getWriter();
         writer.println("gwagwaggwa");
+        writer.println("嘻嘻嘻");
     }
 }
